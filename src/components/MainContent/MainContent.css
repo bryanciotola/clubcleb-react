@@ -1,0 +1,26 @@
+.btn1-style,
+.btn2-style {
+  color: white;
+  width: 200px; /* Common width for both buttons */
+}
+
+.btn1-style {
+  background-color: #eb4a1b;
+}
+
+.btn2-style {
+  background-color: darkblue;
+}
+
+@media (min-width: 1200px) { 
+    .container-fluid {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  
+  /* Apply the background color to the body or a full-width wrapper */
+  body {
+    background-color: #FF6347;
+  }
+  

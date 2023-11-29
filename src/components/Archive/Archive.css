@@ -1,0 +1,93 @@
+.meeting-summary-wrapper {
+    padding: 5px; /* Adjust padding as needed */
+}
+
+.border-color-1 {
+    background-color: #FF4500; /* Adjust color as needed */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.border-color-2 {
+    background-color: #20B2AA; /* Adjust color as needed */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.border-color-3 {
+    background-color: #FFD700; /* Adjust color as needed */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.border-color-4 {
+    background-color: #4682B4; /* Adjust color as needed */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.border-color-5 {
+    background-color: #FFA07A; /* Adjust color as needed */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+
+.meeting-summary {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.meeting-summary img {
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.meeting-summary .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Custom button styles */
+.meeting-summary .content .btn1-style,
+.meeting-summary .content .btn2-style {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.meeting-summary .content .btn1-style {
+    background-color: #eb4a1b;
+}
+
+.meeting-summary .content .btn2-style {
+    background-color: darkblue;
+}
+
+
+/* Responsive Design for smaller screens */
+@media (max-width: 600px) {
+    .meeting-summary img {
+        max-width: 100%; /* Allows the image to scale down on smaller screens */
+        height: auto;
+    }
+
+    .meeting-summary .content {
+        justify-content: center; /* Keeps buttons side by side centered */
+        flex-wrap: wrap; /* Allows buttons to wrap to the next line if needed */
+    }
+
+    .meeting-summary .content .btn1-style,
+    .meeting-summary .content .btn2-style {
+        padding: 5px; /* Adjust padding for smaller screens if necessary */
+        margin-bottom: 5px; /* Space between buttons and the next element */
+        width: auto; /* Adjust button width to fit content */
+    }
+}
