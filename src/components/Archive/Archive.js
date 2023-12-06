@@ -10,13 +10,13 @@ function Archive() {
             title: 'November Meeting',
             imageUrl: november,
             picsLink: '/november-meeting-pics', // Update this
-            buyLink: 'link-to-buy-november-book'
+            buyLink: 'https://www.casserolequeens.com/'
         },
         {
             title: 'October Meeting',
             imageUrl: cookthisbook,
             picsLink: '/october-meeting-pics', // Update this
-            buyLink: 'link-to-buy-october-book'
+            buyLink: 'https://mollybaz.com/cook-this-book/'
         }
         // ...other meetings
     ];
