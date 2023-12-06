@@ -1,7 +1,40 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  margin: 0;
 }
 
+/* Ensure the body takes the full viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Header style (adjust as needed) */
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px; /* Example padding */
+  /* Removed min-height: 100vh */
+}
+
+/* Main content style */
+.content {
+  flex: 1;  /* Grow to fill available space */
+  padding: 0px; /* Example padding */
+  margin-top:20px
+}
+
+/* Footer style (adjust as needed) */
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px; /* Example padding */
+}
+
+/* Other existing styles */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,23 +47,12 @@
 }
 
 @font-face {
-  font-family:'Sud';
+  font-family: 'Sud';
   src: local('Sud'), url('./fonts/Sud.woff') format('truetype');
 }
 
 body {
-  font-family:'Sud', sans-serif;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Sud', sans-serif;
 }
 
 .App-link {

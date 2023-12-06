@@ -11,7 +11,7 @@ function MainContent() {
             <div className="row justify-content-center my-0">
                 <div className="col-md-6 text-center">
                     {/* Image */}
-                    <div style={{ padding: '15px', backgroundColor: '#FF4500' }}>
+                    
                         <div style={{ padding: '10px', backgroundColor: '#20B2AA' }}>
                             <div style={{ padding: '10px', backgroundColor: '#FFD700' }}>
                                 <div style={{ padding: '10px', backgroundColor: '#4682B4' }}>
@@ -23,7 +23,7 @@ function MainContent() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    
 
                     {/* Buttons */}
                     {/* Commenting out buttons */}

@@ -11,15 +11,22 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route exact path="/" element={<MainContent />} />
-        <Route path="/archive" element={<Archive />} />
-        <Route path="/october-meeting-pics" element={<OctoberMeetingPics />} />
-        <Route path="/november-meeting-pics" element={<NovemberMeetingPics />} />
-        {/* Add other routes as needed */}
-      </Routes>
-      <Footer />
+      <div className="App"> {/* Ensure the entire app is wrapped in the 'App' class */}
+        <Header />
+
+        {/* Main content area */}
+        <div className="content"> {/* This div will grow to fill available space */}
+          <Routes>
+            <Route exact path="/" element={<MainContent />} />
+            <Route path="/archive" element={<Archive />} />
+            <Route path="/october-meeting-pics" element={<OctoberMeetingPics />} />
+            <Route path="/november-meeting-pics" element={<NovemberMeetingPics />} />
+            {/* Add other routes as needed */}
+          </Routes>
+        </div>
+
+        <Footer />
+      </div>
     </Router>
   );
 }
