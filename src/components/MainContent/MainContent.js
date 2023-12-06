@@ -4,6 +4,8 @@ import clebcrew from '../../images/clebcrew.png';
 
 
 function MainContent() {
+   
+
     return (
         <div className="container-fluid my-0" style={{ backgroundColor: '#FF6347' }}>
             <div className="row justify-content-center my-0">
@@ -24,10 +26,13 @@ function MainContent() {
                     </div>
 
                     {/* Buttons */}
+                    {/* Commenting out buttons */}
+    {/*}
                     <div className="my-4">
                         <button type="button" className="btn btn-lg rounded-pill my-2 btn1-style">Current</button>
-                        <button type="button" className="btn btn-lg rounded-pill my-2  btn2-style">Archive</button>
+                        <button type="button" className="btn btn-lg rounded-pill my-2  btn2-style">Current</button>
                     </div>
+    */}
                 </div>
             </div>
         </div>
